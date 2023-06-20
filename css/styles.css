@@ -1,0 +1,267 @@
+:root {
+    --cl-iris: #4D5AE5;
+    --cl-osean: #404BBF;
+    --cl-slate:#434455;
+    --bg-cl-white:#ffffff;
+    --bg-cl-navyblue:#2e2f42;
+    --bg-cl-cloud:#f4f4fd;
+}
+
+/* Common styles */
+
+body{
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color: #FFFFFF;
+}
+
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+
+/* Main */
+
+.page {}
+
+/* Header */
+
+.haeder {}
+
+.header-nav {}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cl-iris);
+}
+
+.header-logo-color {
+    color:var(--bg-cl-navyblue);
+}
+
+.header-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--bg-cl-navyblue);}
+
+    .header-list .header-link:hover,
+        .header-list .header-link:focus{
+color: #404BBF;
+    }
+
+.haeder-item {
+    color: var(--bg-cl-navyblue);
+}
+/* color: var(--bg-cl-navyblue); */
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+
+.header-address {
+    font-style:normal}
+
+.header-networks {}
+
+.header-networks-item {}
+
+.header-networks-link {
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.header-networks .header-networks-link:hover,
+.header-networks .header-networks-link:focus{
+    color:#404BBF
+}
+
+/* Hero section */
+
+.hero-section {
+background-color: #2E2F42;
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+cursor:pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+background-color: #404BBF;
+}
+
+/* Benefits section */
+
+.benefits-title {
+    color: var(--bg-cl-navyblue);
+}
+
+.benfits-list {}
+
+.benefits-item {}
+
+.benefits-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--bg-cl-navyblue);
+}
+.benefits-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* Work section */
+
+.work-section {}
+
+.work-title {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color:var(--bg-cl-navyblue);
+}
+
+.work-list {}
+
+.work-item {}
+
+.work-img {}
+
+/* Team section */
+
+.team-section {
+background-color: #F4F4FD;
+}
+
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--bg-cl-navyblue);
+background-color: #FFFFFF;
+}
+
+.team-list {;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--bg-cl-navyblue);
+}
+
+.team-profession {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* Footer section */
+
+.footer-section {
+background-color: #2E2F42;
+}
+
+.footer-logo {
+font-family: "Raleway",sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--cl-iris);
+}
+
+.footer-logo-color{
+color: #f4f4fd;
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+/* Portfolio styles */
+.hero-item{
+}
+.hero-button-portfol{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background-color: var(--bg-cl-cloud);
+        cursor: pointer;
+}
+.list .hero-button-portfol:hover,
+.list .hero-button-portfol:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.fotos-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.fotos-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
