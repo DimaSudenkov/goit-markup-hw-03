@@ -76,6 +76,7 @@ img{
 .haeder {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container{
@@ -132,6 +133,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .header-address {
@@ -166,12 +168,11 @@ img{
 
 .hero-section {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    padding: 188px 0;
 }
 
 .hero-title {
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -179,10 +180,11 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-button {
-    display: flex;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -192,6 +194,7 @@ img{
     cursor:pointer;
     margin: 0 auto;
     padding: 16px 32px;
+    min-width: 169px;
 }
 
 .hero-button:hover,
@@ -202,8 +205,7 @@ img{
 /* Benefits section */
 
 .benefits-section{
-    padding-top: 120px;
-    padding-bottom: 60px;
+    padding: 120px 0;
 }
 
 .benefits-title {
@@ -239,7 +241,6 @@ img{
 /* Work section */
 
 .work-section {
-    padding-top: 60px;
     padding-bottom: 120px;
 }
 
@@ -256,10 +257,11 @@ img{
 .work-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .work-item {
-    width: 360;
+    width: calc((100% - 48px) / 3);
 }
 
 .work-img {}
@@ -285,25 +287,38 @@ img{
 .team-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    width:calc((100% - 72px) / 4);
 }
 
-.team-item-img {
-    width: 264px;
+.team-item-img {}
+
+.tema-name-profession {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 32px 16px;
 }
 
 .team-name {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--bg-cl-navyblue);
+    margin-bottom: 8px;
 }
 
 .team-profession {
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -312,15 +327,7 @@ img{
     padding-bottom: 32;
 }
 
-.tema-name-profession {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    padding-bottom: 32px;
-    padding-top: 32px;
-}
+
 
 /* Footer section */
 
@@ -331,7 +338,7 @@ img{
 }
 
 .footer-logo {
-    display: flex;
+    display: inline-block;
     padding-bottom: 16px;
     font-family: "Raleway",sans-serif;
     font-weight: 800;
@@ -340,6 +347,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--cl-iris);
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {
