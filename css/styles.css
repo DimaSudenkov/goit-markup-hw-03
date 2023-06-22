@@ -5,6 +5,7 @@
     --bg-cl-white:#ffffff;
     --bg-cl-navyblue:#2e2f42;
     --bg-cl-cloud:#f4f4fd;
+    --slayles-cl:#e7e9fc;
 }
 
 /* Common styles */
@@ -371,13 +372,16 @@ img{
 
 /* Portfolio styles */
 
-.button-list-conteiner {
+.main-hero-section{
+    padding-top:96px;
+    padding-bottom: 120px;
+}
+
+.hero-list{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    gap:24px;
+    margin-bottom: 72px;
 }
 
 .hero-item{}
@@ -390,16 +394,17 @@ img{
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: var(--bg-cl-cloud);
-    padding: 12px 24px 12px 24px;
+    padding: 12px 24px;
+    border: 1px solid var(--slayles-cl);
 }
 
 .list .hero-button-portfol:hover,
 .list .hero-button-portfol:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
-.fotos-container {}
 
 .fotos-list {
     display: flex;
