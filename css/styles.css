@@ -358,7 +358,7 @@ img{
 
 /* Portfolio styles */
 
-.button-list-conteiner{
+.button-list-conteiner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -386,6 +386,17 @@ img{
     background-color: #404BBF;
 }
 
+.fotos-container {}
+
+.fotos-list {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 48px 24px;
+    justify-content: space-between;
+}
+
+.fotos-img {}
+
 .fotos-title {
     font-weight: 500;
     font-size: 20px;
@@ -400,4 +411,11 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
+}
+
+.name-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
